@@ -1,0 +1,106 @@
+#page-mod-medicalimageviewer-view .feedbackbox {
+    width: 75%;
+    border-collapse: separate;
+}
+#page-mod-medicalimageviewer-view .entrycontent {
+    padding: 3px;
+}
+#page-mod-medicalimageviewer-view .picture {
+    width: 35px;
+}
+#page-mod-medicalimageviewer-view .info {
+    margin-bottom: 5px;
+    text-align: right;
+}
+#page-mod-medicalimageviewer-view .medicalimageviewerstart,
+#page-mod-medicalimageviewer-report .feedbacksave {
+    text-align: center;
+}
+#page-mod-medicalimageviewer-view .lastedit,
+#page-mod-medicalimageviewer-view .editend {
+    font-size: 0.7em;
+    margin: 5px;
+    text-align: center;
+}
+#page-mod-medicalimageviewer-view .author {
+    font-size: 1em;
+    font-weight: bold;
+}
+#page-mod-medicalimageviewer-view .time {
+    font-size: 0.7em;
+    font-style: italic;
+}
+#page-mod-medicalimageviewer-view .grade {
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+}
+
+#page-mod-medicalimageviewer-index .cell {
+    font-size: 0.8em;
+}
+#page-mod-medicalimageviewer-view .feedbackbox .left,
+#page-mod-medicalimageviewer-view .feedbackbox .entryheader {
+    background-color: #ddd;
+}
+
+#page-mod-medicalimageviewer-view .feedbackbox {
+    -moz-border-radius-bottomleft: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+#page-mod-medicalimageviewer-view .feedbackbox .side {
+    -moz-border-radius-bottomleft: 15px;
+}
+#page-mod-medicalimageviewer-view .feedbackbox .entrycontent {
+    -moz-border-radius-bottomright: 15px;
+}
+
+#page-mod-medicalimageviewer-report .medicalimagevieweruserentry {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#page-mod-medicalimageviewer-report .medicalimagevieweruserentry td {
+    padding: 10px;
+    vertical-align: top;
+    width: 100%;
+}
+#page-mod-medicalimageviewer-report .medicalimagevieweruserentry td.userpix {
+    width: 35px;
+}
+#page-mod-medicalimageviewer-report .medicalimagevieweruserentry td.userfullname {
+    white-space: nowrap;
+}
+#page-mod-medicalimageviewer-report .medicalimagevieweruserentry td .lastedit {
+    font-size: 0.76em;
+    margin-left: 10px;
+}
+
+/* CSS for NII type files: */
+
+body {
+    font-family: sans-serif;
+    color: #f9f9f9;
+    background-color: #212121;
+  }
+  
+  #container {
+    background-color: #000;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  #my-gui-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+  } 

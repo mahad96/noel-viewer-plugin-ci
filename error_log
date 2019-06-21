@@ -1,0 +1,5 @@
+[29-May-2019 09:02:41 UTC] Cannot find session record 69cdb1a411785f4a68e621681072a93f for user 2, creating new session.
+[29-May-2019 13:32:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isloggedin() in /home/rn3x56dd5wzt/public_html/elearning/mod/medicalimageviewer/view.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/rn3x56dd5wzt/public_html/elearning/mod/medicalimageviewer/view.php on line 3
