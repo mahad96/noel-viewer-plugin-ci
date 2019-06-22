@@ -8,7 +8,7 @@
   <script type="text/javascript" src="https://unpkg.com/ami.js@next/build/ami.min.js"></script>
 	
   <link rel="stylesheet" href="styles.css">
-  <style>
+<style>
     .card {
       display:none;
     }
