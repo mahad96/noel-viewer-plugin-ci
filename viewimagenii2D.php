@@ -9,42 +9,16 @@
 	
   <link rel="stylesheet" href="styles.css">
   <style>
-    
-.card-body {
-    display: none !important;
-}
-
-/* .pb-3 {
-    display: none !important;
-}*/
-#my-gui-container {
-      position: fixed;
-      top: 57px;
-      right: 10px;
-      z-index: 1;
-  } 
-
-
-
-   /* .diicom canvas {
-        height: 380px !important;
+    .card {
+      display:none;
     }
-
     #my-gui-container {
-      position: fixed;
-      top: 57px;
-      right: 10px;
-      z-index: 1;
-  }
-
-  body#page-mod-medicalimageviewer-view canvas {
-	    height: 495px !important;
-	}
-
-	.card {
-	    display: none;
-	} */
-  </style>
+          position: fixed;
+          top: 57px;
+          right: 10px;
+          z-index: 1;
+      }
+</style>
 </head>
 
 <body>
